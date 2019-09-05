@@ -1,4 +1,4 @@
-FROM golang:1.6.0
+FROM golang:1.12.9
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y \
@@ -12,15 +12,11 @@ RUN apt-get update && \
     libxml2-dev \ 
     xpdf \
     libcurl4-openssl-dev \
-    libssl-dev
+    libssl-dev \
+    r-base \
+    r-base-dev
 
-RUN echo 'deb http://cran.rstudio.com/bin/linux/debian jessie-cran3/' >> /etc/apt/sources.list && \
-    apt-key adv --keyserver keys.gnupg.net --recv-key 381BA480 && \ 
-    apt-get update && \
-    apt-get install -y \
-        r-base
-
-RUN R -e 'install.packages("jsonlite", repos="http://cran.rstudio.org")'
+RUN R -e 'install.packages("jsonlite")'
 
 RUN go get github.com/gorilla/mux 
 RUN go get github.com/fjukstad/kvik/r
