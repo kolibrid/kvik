@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/fjukstad/gocache"
+	"github.com/kolibrid/gocache"
 )
 
 type SearchResult struct {

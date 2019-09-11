@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/fjukstad/kvik/eutils"
-	"github.com/fjukstad/kvik/genenames"
+	"github.com/kolibrid/kvik/eutils"
+	"github.com/kolibrid/kvik/genenames"
 )
 
 func DocHandler(w http.ResponseWriter, r *http.Request) {

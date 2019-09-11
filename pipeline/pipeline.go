@@ -10,7 +10,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/fjukstad/kvik/r"
+	"github.com/kolibrid/kvik/r"
 )
 
 // A pipeline stage.

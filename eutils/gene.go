@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/fjukstad/gocache"
+	"github.com/kolibrid/gocache"
 )
 
 type GenomicInfo struct {

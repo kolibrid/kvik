@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/fjukstad/kvik/eutils"
+	"github.com/kolibrid/kvik/eutils"
 )
 
 func main() {

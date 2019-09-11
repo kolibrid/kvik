@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/fjukstad/kvik/eutils"
+	"github.com/kolibrid/kvik/eutils"
 )
 
 type Service struct {

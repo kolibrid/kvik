@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/fjukstad/kvik/gopencpu"
+	"github.com/kolibrid/kvik/gopencpu"
 )
 
 func main() {

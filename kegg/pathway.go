@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fjukstad/gocache"
+	"github.com/kolibrid/gocache"
 )
 
 type Pathway struct {

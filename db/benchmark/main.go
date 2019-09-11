@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/fjukstad/kvik/db"
+	"github.com/kolibrid/kvik/db"
 )
 
 func main() {

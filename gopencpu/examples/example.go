@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/fjukstad/kvik/gopencpu"
+	"github.com/kolibrid/kvik/gopencpu"
 )
 
 func main() {

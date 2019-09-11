@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/fjukstad/gocache"
+	"github.com/kolibrid/gocache"
 )
 
 func Summary(name string) (summary string) {

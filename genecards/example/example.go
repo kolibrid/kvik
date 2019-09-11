@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/fjukstad/kvik/genecards"
+	"github.com/kolibrid/kvik/genecards"
 )
 
 func main() {

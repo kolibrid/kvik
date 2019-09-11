@@ -12,8 +12,8 @@ visualizing KEGG pathways using [d3](http://d3js.org).
 Kvik is in continuous development. 
 
 ## Example Applications
-### [Matched Interaction Across Tissues (MIxT)](http://github.com/fjukstad/mixt)
-![MixT](https://raw.githubusercontent.com/fjukstad/mixt/master/public/img/screenshot.png)
+### [Matched Interaction Across Tissues (MIxT)](http://github.com/kolibrid/mixt)
+![MixT](https://raw.githubusercontent.com/kolibrid/mixt/master/public/img/screenshot.png)
 
 ### Kvik Pathways
 ![Example application](screenshot.png)
@@ -33,5 +33,5 @@ for building applications that interface with data analysis in R and online
 databases. 
 
 ## Contact
-Feel free to contact me at bjorn.fjukstad@uit.no! 
+Feel free to contact me at bjorn.kolibrid@uit.no! 
 

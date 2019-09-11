@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/fjukstad/kvik/r"
+	"github.com/kolibrid/kvik/r"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/fjukstad/gocache"
+	"github.com/kolibrid/gocache"
 )
 
 func Abstract(geneset string) (abstract string, err error) {

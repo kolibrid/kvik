@@ -8,7 +8,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/fjukstad/gocache"
+	"github.com/kolibrid/gocache"
 )
 
 type Compound struct {

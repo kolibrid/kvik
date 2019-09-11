@@ -23,9 +23,9 @@ RUN echo 'deb http://cran.rstudio.com/bin/linux/debian buster-cran35/' >> /etc/a
 RUN R -e 'install.packages("jsonlite")'
 
 RUN go get github.com/gorilla/mux 
-RUN go get github.com/fjukstad/kvik/r
+RUN go get github.com/kolibrid/kvik/r
 
 EXPOSE 80
 
-WORKDIR /go/src/github.com/fjukstad/kvik/r/examples
+WORKDIR /go/src/github.com/kolibrid/kvik/r/examples
 CMD go run server.go -port=":80" 

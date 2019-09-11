@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/fjukstad/kvik/r"
+	"github.com/kolibrid/kvik/r"
 )
 
 func main() {

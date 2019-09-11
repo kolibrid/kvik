@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "github.com/fjukstad/kvik/eutils"
+import "github.com/kolibrid/kvik/eutils"
 
 func main() {
 	ds, err := eutils.GeneSummary("627")

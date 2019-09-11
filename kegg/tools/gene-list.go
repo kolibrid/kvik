@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/fjukstad/kvik/kegg"
+	"github.com/kolibrid/kvik/kegg"
 )
 
 func retrievePathways(filename string) (pathways []string, err error) {

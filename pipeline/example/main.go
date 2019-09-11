@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"runtime"
 
-	"github.com/fjukstad/kvik/pipeline"
-	"github.com/fjukstad/kvik/r"
+	"github.com/kolibrid/kvik/pipeline"
+	"github.com/kolibrid/kvik/r"
 )
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
 	username := ""
 	password := ""
 
-	var filename = flag.String("pipeline", "/Users/bjorn/Dropbox/go/src/github.com/fjukstad/kvik/pipeline/example/x-y/pipeline.yaml", "the pipeline description")
+	var filename = flag.String("pipeline", "/Users/bjorn/Dropbox/go/src/github.com/kolibrid/kvik/pipeline/example/x-y/pipeline.yaml", "the pipeline description")
 
 	flag.Parse()
 

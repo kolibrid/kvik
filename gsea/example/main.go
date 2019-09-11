@@ -1,6 +1,6 @@
 package main
 
-import "github.com/fjukstad/kvik/gsea"
+import "github.com/kolibrid/kvik/gsea"
 import "fmt"
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/fjukstad/kvik/kegg"
+	"github.com/kolibrid/kvik/kegg"
 	"github.com/gorilla/mux"
 )
 

@@ -1,7 +1,7 @@
 # data:
-#   build: /Users/bjorn/Dropbox/go/src/github.com/fjukstad/kvik/pipeline/docker/fileserver/
+#   build: /Users/bjorn/Dropbox/go/src/github.com/kolibrid/kvik/pipeline/docker/fileserver/
 #load-balancer:
-#  build: /Users/bjorn/Dropbox/go/src/github.com/fjukstad/kvik/pipeline/docker/load-balancer/
+#  build: /Users/bjorn/Dropbox/go/src/github.com/kolibrid/kvik/pipeline/docker/load-balancer/
 #  ports: 
 #    - "80:80"
 #    - "8004:8004" 
@@ -11,7 +11,7 @@
 #    - "80"
 #    - "8004"
 worker: 
-  build: /Users/bjorn/Dropbox/go/src/github.com/fjukstad/kvik/pipeline/docker/worker/
+  build: /Users/bjorn/Dropbox/go/src/github.com/kolibrid/kvik/pipeline/docker/worker/
   expose: 
     - "80" 
   volumes:
@@ -20,7 +20,7 @@ worker:
     - data 
 haproxy:
   image: tutum/haproxy
-  #build: /Users/bjorn/Dropbox/go/src/github.com/fjukstad/kvik/pipeline/docker/haproxy/
+  #build: /Users/bjorn/Dropbox/go/src/github.com/kolibrid/kvik/pipeline/docker/haproxy/
   links:
     - worker
   ports:
