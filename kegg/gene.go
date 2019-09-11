@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kolibrid/gocache"
+	"github.com/fjukstad/gocache"
 )
 
 type Gene struct {

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/kolibrid/gocache"
+	"github.com/fjukstad/gocache"
 	"github.com/pkg/errors"
 )
 
